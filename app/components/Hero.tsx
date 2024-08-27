@@ -23,7 +23,7 @@ export function Hero() {
             </div>
 
             <div className='relative flex h-full justify-center'>  {/* Another Section, gradients, trusted comapnies */}
-                <Image src={Gradient} alt='Gradient' className='min-h-[500px] w-full object-cover lg:h-auto' />
+                <Image src={Gradient} alt='Gradients' className='min-h-[500px] w-full object-cover lg:h-auto' />
 
                 <div className='absolute bottom-5 flex flex-col w-full items-center'>
                     <Image src={HeroImage} alt='Hero Image' className='-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]'/>
